@@ -179,11 +179,11 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      {/* <DropdownItem to="/landing-page" tag={Link}>
-                        Landing
-                      </DropdownItem> */}
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
+                      </DropdownItem>
+                      <DropdownItem to="/landing-page" tag={Link}>
+                        More details
                       </DropdownItem>
                       {/* <DropdownItem to="/login-page" tag={Link}>
                         Login
@@ -208,7 +208,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on LinkedIn
+                      Follow me on LinkedIn
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -224,7 +224,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow us on Instagram
+                      Contact me on Instagram
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -240,7 +240,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
-                      Follow us on Twitter
+                      Contact me on Twitter
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
@@ -256,7 +256,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Star us on Github
+                      Contact me on Github
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">

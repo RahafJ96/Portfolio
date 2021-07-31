@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/profilepic.png";
+import profile from "assets/img/theme/pp.png";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -90,7 +90,7 @@ class Profile extends React.Component {
                           color="info"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
-                          size="sm"
+                          size="md"
                         >
                           Connect
                         </Button>
@@ -99,7 +99,7 @@ class Profile extends React.Component {
                           color="default"
                           href="#pablo"
                           onClick={e => e.preventDefault()}
-                          size="sm"
+                          size="md"
                         >
                           Message
                         </Button>
@@ -108,16 +108,16 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
+                          <span className="heading">45</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">20</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading">5</span>
+                          <span className="description">Projects</span>
                         </div>
                       </div>
                     </Col>
@@ -157,6 +157,7 @@ class Profile extends React.Component {
                 </div>
               </Card>
             </Container>
+          
           </section>
         </main>
         <SimpleFooter />
