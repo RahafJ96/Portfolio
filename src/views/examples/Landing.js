@@ -197,7 +197,9 @@ class Landing extends React.Component {
                           <p className="description mt-3">
                           This project about an e-commerce specialized in selling and exchanging used and recycled products,
                             it's focusing on reusing products and make them usefull. The purpose behind it is making our life in Jordan more sustainable and eco-friendly.
-                          
+                            <br/>
+                          SELL and EXCHANGE
+Instead of sending them to waste. This sustainable platform is for exchanging and replacing your used, recycled and other products with a huge connection of people who they are searching for.
                             </p>
                             <div>
                             <Badge color="success" pill className="mr-1">
