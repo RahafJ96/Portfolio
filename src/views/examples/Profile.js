@@ -108,16 +108,16 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">45</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">6</span>
+                          <span className="description">Projects</span>
                         </div>
                         <div>
                           <span className="heading">20</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">5</span>
-                          <span className="description">Projects</span>
+                          <span className="heading">45</span>
+                          <span className="description">Comments</span>
                         </div>
                       </div>
                     </Col>
@@ -133,11 +133,11 @@ class Profile extends React.Component {
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Electrical and Communication Engineering
+                      Electrical and Communication Engineering 👩‍🔧️
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      German Jordanian University
+                      German Jordanian University 🎓
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
@@ -148,7 +148,7 @@ class Profile extends React.Component {
                           and communication technology and good knowledge of programming
                           languages, web development and editing on Adobe programs.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="https://rahaf-aljazzazi.netlify.app/landing-page" target='_blank'>
                           Show more
                         </a>
                       </Col>
@@ -160,7 +160,7 @@ class Profile extends React.Component {
           
           </section>
         </main>
-        <SimpleFooter />
+        {/* <SimpleFooter /> */}
       </>
     );
   }

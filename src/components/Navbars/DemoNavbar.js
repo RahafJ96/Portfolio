@@ -38,8 +38,8 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
-import argonReact from "assets/img/brand/argon-react.png";
+import reactWhite from "assets/img/brand/logo-white3.png";
+import argonReact from "assets/img/brand/logo.png";
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -174,9 +174,9 @@ class DemoNavbar extends React.Component {
                     </DropdownMenu>
                   </UncontrolledDropdown> */}
                   <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
+                    <DropdownToggle nav >
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
+                      <Button className="btn btn-secondary btn-md dropdown-toggle">Menu</Button>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/profile-page" tag={Link}>

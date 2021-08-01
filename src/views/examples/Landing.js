@@ -79,18 +79,21 @@ class Landing extends React.Component {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    <Col lg="6">
+                    <Col lg="12">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        My Background{" "}
+                        <span></span>
                       </h1>
-                      <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      <p className="lead text-white text-justify">
+                        My name is Rahaf Al-Jazzazi, I have graduated from German Jordanian University with a bachelor degree in
+                        Electrical and Communication engineering. I have been an intern with a German company called Deutsche
+                        Telekom which considered one of the best telecommunication company around Europe for 2 years. I am currently
+                        studying software development at ASAC. I’m so excited to finish the course with a good certificate to have a
+                        better chance in my career.
+
                       </p>
-                      {/* <div className="btn-wrapper">
-                        <Button
+                      {/* <div className="btn-wrapper"> */}
+                      {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -111,8 +114,8 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
-                      </div> */}
+                        </Button> */}
+                      {/* </div> */}
                     </Col>
                   </Row>
                 </div>
@@ -138,73 +141,194 @@ class Landing extends React.Component {
           </div>
           <section className="section section-lg pt-lg-0 mt--200">
             <Container>
+              <h1 className="display-3 text-white text-center">My Projects </h1><br />
               <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                          <div className="icon icon-shape icon-shape-dark rounded-circle mb-4">
+                            <i className="fa fa-university" />
                           </div>
-                          <h6 className="text-primary text-uppercase">
-                            JOstainable
+                          <h6 className="text-dark text-uppercase">
+                            Orthogonal frequency division multiplexing (OFDM) Optisystem.
                           </h6>
                           <p className="description mt-3">
-                            This project about an e-commerce specialized in selling and exchanging used and recycled products,
-                            it's focusing on reusing products and make them usefull. The purpose behind it is making our life in Jordan more sustainable and eco-friendly.
-                          </p>
+                            • Implementation of the OFDM system in MATLAB to maintain its BER
+                            (Bit Error Rate) performance.<br />
+                            • Test the OFDM signals in dierent channels such as the free space
+                            optics (FSO) and compare them to the ideal OFDM signal.<br />
+                            • Affected by how well OFDM works when broadcast over an AWGN
+                            (Additive White Gaussian Noise) channel only to Free Space Optics
+                            (FSO).</p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
+                            <Badge color="dark" pill className="mr-1">
+                              OFDM
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
+                            <Badge color="dark" pill className="mr-1">
+                              Bit Error Rate (BER)
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
+                            <Badge color="dark" pill className="mr-1">
+                              Free Space Optics (FSO)
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
-                            href="https://201jostainable.netlify.app/"                          
+                            color="dark"
+                            href="https://201jostainable.netlify.app/"
                             target="_blank"
-                          
+
                           >
                             Learn more
                           </Button>
                         </CardBody>
                       </Card>
                     </Col>
-
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
-                        <CardBody className="py-5">
+                      <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="fa fa-recycle" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            301 Project
+                            201 Porject: JOstainable
                           </h6>
                           <p className="description mt-3">
-
-
-                          </p>
-                          <div>
+                          This project about an e-commerce specialized in selling and exchanging used and recycled products,
+                            it's focusing on reusing products and make them usefull. The purpose behind it is making our life in Jordan more sustainable and eco-friendly.
+                          
+                            </p>
+                            <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              Design
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              Recycle
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              Creative
+                            </Badge>
+                            <Badge color="success" pill className="mr-1">
+                              Eco Friendly
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="success"
+                            href="https://201jostainable.netlify.app/"
+                            target="_blank"
+
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
+                            <i className="fa fa-recycle" />
+                          </div>
+                          <h6 className="text-danger text-uppercase">
+                            301 Porject: 
+                          </h6>
+                          <p className="description mt-3">
+                          This project will be updated on 15.08.2021
+                            </p>
+                            <div>
+                            <Badge color="danger" pill className="mr-1">
+                              Design
+                            </Badge>
+                            <Badge color="danger" pill className="mr-1">
+                              DataBase
+                            </Badge>
+                            <Badge color="danger" pill className="mr-1">
+                              Creative
+                            </Badge>
+                            
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="danger"
+                            href="https://201jostainable.netlify.app/"
+                            target="_blank"
+
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+
+
+                  </Row>
+                  <Row className="row-grid">
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
+                            <i className="fa fa-pie-chart" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            401 Project
+                          </h6>
+                          <p className="description mt-3">
+                          This project will be updated soon
+                          </p>
+                         
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+                              design
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              system
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              creative
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="warning"
+                            href="https://201jostainable.netlify.app/"
+                            target="_blank"
+
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-info rounded-circle mb-4">
+                            <i className="fa fa-area-chart" />
+                          </div>
+                          <h6 className="text-info text-uppercase">
+                            102 Project
+                          </h6>
+                          <p className="description mt-3">
+
+
+                          </p>
+                          <div>
+                            <Badge color="info" pill className="mr-1">
+                              business
+                            </Badge>
+                            <Badge color="info" pill className="mr-1">
+                              vision
+                            </Badge>
+                            <Badge color="info" pill className="mr-1">
+                              success
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="info"
                             href="#pablo"
                             onClick={e => e.preventDefault()}
                           >
@@ -216,44 +340,47 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="fa fa-youtube" />
                           </div>
-                          <h6 className="text-warning text-uppercase">
-                            401 Porject
+                          <h6 className="text-primary text-uppercase">
+                          Advertising ISAP for exchanged Students in HSB
                           </h6>
                           <p className="description mt-3">
-
+                            I created a video on Youtube in the time that I lived in Germany as an exchange student. The video talks about the 
+                            life, school and everything about Hochschule Bremen 
                           </p>
                           <div>
-                            <Badge color="warning" pill className="mr-1">
+                            <Badge color="primary" pill className="mr-1">
                               marketing
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
+                            <Badge color="primary" pill className="mr-1">
                               product
                             </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
+                            <Badge color="primary" pill className="mr-1">
+                              university
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            color="primary"
+                            href='https://www.youtube.com/watch?v=UreUHj_wAiM&ab_channel=RahafAl-Jazzazi'
+                            onClick={"_black"}
                           >
                             Learn more
                           </Button>
                         </CardBody>
                       </Card>
                     </Col>
+
                   </Row>
+
                 </Col>
               </Row>
             </Container>
           </section>
-          {/* <section className="section section-lg"> */}
-            {/* <Container>
+          <section className="section section-lg">
+            <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
                   <img
@@ -269,10 +396,7 @@ class Landing extends React.Component {
                     </div>
                     <h3>My Background</h3>
                     <p>
-                      Motivated graduate with practical experience in electrical engineering
-                      and communication technology and good knowledge of programming
-                      languages, web development and editing on Adobe programs.
-                      {""}
+                      xxxx
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -399,10 +523,10 @@ class Landing extends React.Component {
                   </div>
                 </Col>
               </Row>
-            </Container> */}
-          {/* </section> */}
-          {/* <section className="section pb-0 bg-gradient-warning"> */}
-            {/* <Container>
+            </Container>
+          </section>
+          <section className="section pb-0 bg-gradient-warning">
+            <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
                   <div className="position-relative pl-md-5">
@@ -487,9 +611,9 @@ class Landing extends React.Component {
                   </Card>
                 </Col>
               </Row>
-            </Container> */}
+            </Container>
             {/* SVG separator */}
-            {/* <div className="separator separator-bottom separator-skew zindex-100">
+            <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -503,10 +627,10 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div> */}
-          {/* </section> */}
-          {/* <section className="section section-lg"> */}
-            {/* <Container>
+            </div>
+          </section>
+          <section className="section section-lg">
+            <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
                   <h2 className="display-3">The amazing Team</h2>
@@ -689,10 +813,10 @@ class Landing extends React.Component {
                   </div>
                 </Col>
               </Row>
-            </Container> */}
-          {/* </section> */}
-          {/* <section className="section section-lg pt-0"> */}
-            {/* <Container>
+            </Container>
+          </section>
+          <section className="section section-lg pt-0">
+            <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
                   <Row className="align-items-center">
@@ -720,10 +844,10 @@ class Landing extends React.Component {
                   </Row>
                 </div>
               </Card>
-            </Container> */}
-          {/* </section> */}
-          {/* <section className="section section-lg bg-gradient-default"> */}
-            {/* <Container className="pt-lg pb-300">
+            </Container>
+          </section>
+          <section className="section section-lg bg-gradient-default">
+            <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
@@ -767,9 +891,9 @@ class Landing extends React.Component {
                   </p>
                 </Col>
               </Row>
-            </Container> */}
+            </Container>
             {/* SVG separator */}
-            {/* <div className="separator separator-bottom separator-skew zindex-100">
+            <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -783,10 +907,10 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div> */}
-          {/* </section> */}
-          {/* <section className="section section-lg pt-lg-0 section-contact-us"> */}
-            {/* <Container>
+            </div>
+          </section>
+          <section className="section section-lg pt-lg-0 section-contact-us">
+            <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
@@ -858,11 +982,11 @@ class Landing extends React.Component {
                   </Card>
                 </Col>
               </Row>
-            </Container> */}
-          {/* </section> */}
+            </Container>
+          </section>
           <Download />
         </main>
-        {/* <CardsFooter /> */}
+        <CardsFooter />
       </>
     );
   }
